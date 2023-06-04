@@ -1,0 +1,142 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.main {
+  /* border: 2px solid blue; */
+  display: flex;
+  width: 100%;
+}
+
+.index {
+  /* border: 2px solid red; */
+  width: 19%;
+  background-color: rgb(31, 31, 31);
+}
+.blank {
+  height: 75px;
+  background-color: black;
+}
+
+.middle {
+  /* border: 2px solid green; */
+  margin-top: 20px;
+  width: 79%;
+  margin: 0%;
+}
+
+.header {
+  border: 2px solid black;
+  height: 90px;
+  position: fixed;
+  width: 79%;
+  background-color: black;
+  color: white;
+  margin: auto;
+  /* border-radius: 10px */
+}
+
+.cfname {
+  /* text-align: center; */
+  font-size: 70px;
+  color: rgb(129, 127, 122);
+  color: rgb(138, 136, 132);
+}
+
+.logo {
+  position: fixed;
+  top: 0%;
+  width: 20%;
+  height: 95px;
+  /* border: 2px solid yellow; */
+  background-color: black;
+  text-align: center;
+}
+
+.indexitems {
+  display: grid;
+  position: fixed;
+  top: 13%;
+}
+
+.indexitems a {
+  border: 2px solid rgb(163, 163, 163);
+  text-align: center;
+  font-size: larger;
+  text-decoration: none;
+  color: rgb(215, 218, 226);
+  font-weight: bold;
+  padding: 5.5%;
+  width: 255px;
+  border-radius: 5px;
+  background-color: rgb(31, 31, 31);
+}
+
+.indexitems :hover {
+  border: 4px solid white;
+  text-align: center;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 7%;
+  width: 253px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.card {
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.cardview {
+  /* border: 2px solid blue; */
+  background-color: rgb(241, 238, 234);
+  height: 270px;
+  width: 400px;
+  margin-left: 30%;
+}
+.cardview img {
+  /* border: 2px solid yellow; */
+  margin-top: 5px;
+  height: 200px;
+  width: 9d0px;
+}
+.cmtinput {
+  height: 70px;
+  width: 350px;
+  text-align: start;
+}
+.commentsec {
+  /* border: 2px solid green; */
+  padding: 10px;
+  margin: 10px;
+}
+.commentsec h2 {
+  padding: 20px;
+}
+.subbtn {
+  padding: 5px;
+  background-color: seashell;
+}
+#name {
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+}
+#name:hover {
+  box-shadow: 5px 5px 10px black;
+  border: 2px solid black;
+  padding: 11px;
+}
+.table {
+  margin-left: 35%;
+}
+
+.table td {
+  /* border: 2px solid red; */
+  padding: 10px;
+  font-size: large;
+}

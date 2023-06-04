@@ -1,0 +1,217 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.mainheader {
+  border: 2px solid black;
+  background-image: url(../img/background2.jpg);
+  width: 99%;
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  /* border: 2px solid blue; */
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: xx-large;
+  border-radius: 15%;
+  color: wheat;
+}
+
+.navitems {
+  /* border: 2px solid darkred; */
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+.navitems a {
+  color: white;
+  padding: 15px;
+  /* border: 1px solid salmon; */
+  font-size: xx-large;
+  text-decoration: none;
+  font-family: cursive;
+}
+.navitems a:hover {
+  /* background-color: rgb(27, 26, 26); */
+  cursor: pointer;
+  font-weight: bold;
+  color: wheat;
+}
+
+.mainimg {
+  /* border: 2px solid blue; */
+  color: black;
+  width: 70%;
+  font-size: 70px;
+  float: right;
+
+  margin-top: 100px;
+}
+.mainimg h5 {
+  /* border: 2px solid red; */
+  color: rgb(240, 172, 172);
+  text-shadow: 5px 5px 10px black;
+}
+.namebig {
+  /* border: 2px solid red; */
+  font-size: 50px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+/* .menu{} */
+
+/* .foods{} */
+
+.eatone {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+  background-color: black;
+}
+
+.Ep {
+  /* border: 2px solid red; */
+  justify-content: center;
+  color: wheat;
+  display: block;
+  text-align: center;
+  margin: 160px;
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.Ep :hover {
+  box-shadow: 5px 5px 20px wheat;
+  border-radius: 20px;
+}
+
+.Ep img {
+  height: 350px;
+  width: 475px;
+  border-radius: 10px;
+}
+
+.fsection {
+  background-color: rgb(44, 38, 38);
+  font-size: 36px;
+  color: wheat;
+  text-align: center;
+}
+.drinks {
+  background-color: black;
+}
+.drinkone {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+  background-color: rgb(0, 0, 0);
+}
+.Ep1 {
+  /* border: 2px solid red; */
+  justify-content: center;
+  color: wheat;
+  display: block;
+  text-align: center;
+  margin: 60px;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.Ep1 :hover {
+  box-shadow: 20px 9px 30px white;
+  border-radius: 20px;
+}
+
+.Ep1 img {
+  height: 250px;
+  width: 375px;
+  border-radius: 10px;
+}
+.dsection {
+  background-color: white;
+  font-size: 36px;
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  /* border: 2px solid greenyellow; */
+}
+.About-para {
+  background-color: rgb(138, 134, 134);
+  color: black;
+  font-size: 20px;
+  padding: 30px;
+  margin: 80px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  box-shadow: 10px 10px 20px;
+}
+
+.ContactUs {
+  /* border: 2px solid red; */
+  justify-content: center;
+  display: grid;
+}
+
+.cntform {
+  border: 2px solid black;
+  /* justify-content:center;  */
+  width: 30%;
+  display: grid;
+  margin-top: 50px;
+  font-size: larger;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(236, 242, 243);
+}
+
+.inp {
+  width: 450px;
+  height: 30px;
+  margin: 10px;
+  /* border: 2px solid gray; */
+}
+
+.inp-bg {
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+}
+
+.submit-btn {
+  /* border: 2px solid green; */
+  height: 30px;
+  width: 70px;
+  margin-left: 220px;
+  color: white;
+  background-color: red;
+}
+.services {
+  border: 2px solid rgb(126, 95, 95);
+  text-align: center;
+  margin: 70px;
+  padding: 70px;
+  font-size: xx-large;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 10px;
+}
+.services h2 {
+  margin: 30px;
+  color: rgb(102, 61, 61);
+}
